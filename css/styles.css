@@ -122,7 +122,10 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) ;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
 }
 .hero-title {
   color: var(--white-color);
@@ -155,7 +158,7 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-} 
+}
 
 /*--------------section company-----------*/
 .company {
@@ -202,11 +205,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section-nave{
-    padding-top: 0px;
+.section-nave {
+  padding-top: 0px;
 }
 .todo {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 /*----------command------------*/
 .font-section {
@@ -215,17 +218,17 @@ body {
   padding-bottom: 94px;
 }
 .command {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .command-image {
-    display: block;
+  display: block;
 }
 .title-name {
   margin-bottom: 10px;
 }
 .our-team {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .command-nave {
   display: flex;
@@ -234,10 +237,8 @@ body {
 .command-people {
   margin-right: 30px;
   background-color: var(--white-color);
-  box-shadow:0px 1px 3px rgba(0, 0, 0, 0.12), 
-  0px 1px 1px 
-  rgba(0, 0, 0, 0.14), 0px 2px 1px 
-  rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .command-people:nth-child(4n) {
@@ -265,10 +266,9 @@ body {
 .command-icoons-item {
   width: 44px;
   height: 44px;
-  margin-right: 10px;
 }
 .command-icoons-item:not(:last-child) {
-  margin-right: 0;
+  margin-right: 10px;
 }
 .command-icoons-link {
   width: 100%;
@@ -290,25 +290,45 @@ body {
 .command-icoons-svg {
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
-
+  fill: #afb1b8;
 }
 /* -------------------client-------------------- */
 .client {
-  padding-top:94px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .client-title {
   margin-bottom: 50px;
 }
 
+.client-list {
+  display: flex;
+  justify-content: center;
+}
 
-
+.client-item{
+  width: 106px;
+  height: 92px;
+  
+}
+.client-link {
+  width: 100%;
+  height: 100%;
+}
+.client-icoon {
+  width: 106px;
+  height: 60px;
+  fill: #AFB1B8;
+}
 /*-----------footer------------*/
 .footer-bgr {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 .location-nave {
   margin-top: 20px;
@@ -335,20 +355,29 @@ body {
   text-decoration: none;
 }
 
+.footer-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
 .footer-right {
-  display: flex;
+  margin-left: 70px;
 }
 .footer-right-list {
   display: flex;
-  justify-content: center;
 }
-.footer-right-item {  
+.footer-right-item {
   width: 44px;
   height: 44px;
-  margin-right: 10px;
 }
 .footer-right-item:not(:last-child) {
-  margin-right: 0;
+  margin-right: 10px;
 }
 .footer-right-link {
   width: 100%;
@@ -363,6 +392,10 @@ body {
   width: 20px;
   height: 20px;
   fill: var(--white-color);
+}
+.footer-right-link:hover,
+.footer-right-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* --------------------СТРАНИЦА PORTFOLIO------------------*/
@@ -416,7 +449,7 @@ body {
   margin-right: 0px;
 }
 .our-work {
-    padding: 20px 24px;
+  padding: 20px 24px;
 }
 .jobs-name {
   color: var(--title-text-color);
