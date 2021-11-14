@@ -273,9 +273,6 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.command-image {
-  display: block;
-}
 .title-name {
   margin-bottom: 10px;
 }
@@ -522,6 +519,9 @@ body {
 }
 .box-job:nth-last-child(3n + 1) {
   margin-right: 0px;
+}
+.command-image {
+  display: block;
 }
 .our-work {
   padding: 20px 24px;
